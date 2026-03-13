@@ -1,0 +1,171 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@import "minima";
+
+/* Header nav hover */
+.site-nav .page-link:hover {
+  text-decoration: none;
+  color: #2a7ae2;
+}
+
+.site-nav .page-link.active {
+  color: #2a7ae2;
+  // font-weight: bold;
+}
+
+// /* Copy button looks like other buttons */
+// .bib-content .pub-btn {
+//   margin-bottom: 5px; /* small spacing above BibTeX */
+//   font-size: 13px;    /* optional smaller than main buttons */
+// }
+
+/* Publication buttons (both BibTeX and PDF) */
+.pub-btn {
+  display: inline-block;
+  padding: 3px 9px;
+  border: 1.5px solid #000;       /* black border */
+  color: #000 !important;         /* black text */
+  background-color: transparent;   /* no fill */
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pub-btn:hover {
+  color: #2a7ae2 !important;     /* optional hover color */
+  border-color: #2a7ae2;
+}
+
+/* Flex container for buttons */
+.pub-buttons-wrapper {
+  display: flex;
+  gap: 10px;           /* space between buttons */
+  align-items: flex-start;
+  margin-top: 7px;
+}
+
+/* BibTeX content box hidden by default */
+.bib-content {
+  display: none;
+  margin-top: 5px;
+  padding: 8px 12px;
+  border: 1px solid #e8e8e8;
+  background-color: #f8f8f8;
+  overflow-x: auto;
+}
+
+.publication p {
+  margin: 0;
+}
+
+.post-title {
+  text-align: center;
+}
+
+/* Publication row layout */
+.pub-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+/* Image column */
+.pub-image {
+  width: 100px;
+  flex-shrink: 0;   /* prevents disappearing */
+}
+
+.pub-image img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+/* Text column */
+.pub-info {
+  flex: 1;
+  min-width: 0;   /* prevents flex glitches */
+}
+
+/* Abstract box */
+.abs-content {
+  display: none;
+  margin-top: 6px;
+}
+
+.abs-text {
+  padding: 8px 12px;
+  border: 1px solid #e8e8e8;
+  background-color: #f8f8f8;
+  font-size: 14px;
+}
+
+/* Mail icon in navigation */
+.site-nav .mail-link {
+  display: inline-flex;
+  align-items: center;
+  color: #111;
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+.site-nav .mail-link:hover {
+  color: #2a7ae2;
+}
+
+.site-nav .mail-link .svg-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor; /* inherits link color */
+  vertical-align: middle;
+}
+
+/* Mail PNG icon in navigation */
+.site-nav .mail-link {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0px; /* space from last page link */
+}
+
+.site-nav .mail-link img.mail-icon {
+  width: 18px;       /* match other icons */
+  height: 18px;
+  display: block;
+}
+
+/* Keep the nav layout, only align items inside */
+.site-nav .trigger {
+  display: inline-flex;       /* inline-flex keeps the menu in place */
+  align-items: center;        /* vertically center links and icon */
+  gap: 0px;                  /* spacing between links */
+}
+
+/* Mail icon image */
+.site-nav .mail-link img.mail-icon {
+  display: block;             /* prevents baseline shift */
+  width: 18px;                
+  height: 18px;
+}
+
+/* Image column */
+.talk-date {
+  width: 100px;
+  flex-shrink: 0;   /* prevents disappearing */
+}
+
+.cv-container {
+  margin-top: 20px;
+}
+
+.cv-container iframe {
+  width: 100%;
+  height: 900px;
+  border: none;
+}
+
+
