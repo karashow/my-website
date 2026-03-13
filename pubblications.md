@@ -12,7 +12,8 @@ A list of my papers, with abstracts, bibliography references and links. Authors 
 <div class="pub-row">
 
 <div class="pub-image">
-<img src="/assets/images/wombat2.png" alt="Tanuki paper" />
+<img src="{{ '/assets/images/wombat2.png' | relative_url }}" alt="WOMBAT paper" />
+<!-- <img src="/assets/images/wombat2.png" alt="Tanuki paper" /> -->
 </div>
 
 <div class="pub-info">
