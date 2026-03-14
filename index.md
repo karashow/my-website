@@ -12,7 +12,7 @@ layout: home
 
 <div>
 
-# Eugenio Paracucchi
+<h1>Eugenio Paracucchi</h1>
 
 Welcome to my personal webpage!
 
