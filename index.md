@@ -15,7 +15,7 @@ Welcome to my personal webpage!
 
 I am a PhD student in Computer Science at <a href="https://cispa.de/en" target="_blank">CISPA</a> and <a href="https://www.uni-saarland.de/en/home.html" target="_blank">Saarland University</a> working in the research group of <a href="https://lucjanhanzlik.github.io/" target="_blank">Lucjan Hanzlik</a>. 
 
-Check the [About]({{ '/about/' | relative_url }}) page to get to know my background. My research focuses on cryptography, with an emphasis on analyzing and designing provable secure privacy-preserving cryptographic protocols.
+Check the [About](/about/) page to get to know my background. My research focuses on cryptography, with an emphasis on analyzing and designing provable secure privacy-preserving cryptographic protocols.
 
 My research interests include:
 
