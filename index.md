@@ -5,7 +5,7 @@
 layout: home
 ---
 
-<img src="/assets/images/photo.png"
+<img src="{{ '/assets/images/photo.png' | relative_url }}"
      alt="Profile picture"
      style="float:right; width:220px; margin-left:20px; margin-bottom:10px; border-radius:8px;">
 

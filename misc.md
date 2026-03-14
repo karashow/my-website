@@ -13,7 +13,7 @@ You can find here some random stuff such as CTF challenge write-ups, links to in
 My profile on <a href="" target="_blank">CryptoHack</a> and some writeups of challenges I enjoyed
 - CryptoCTF - *Bada* - <a href="https://hackmd.io/uOhryUvgTHGYPemN_De9YA" target="_blank">Writeup</a>
 - CryptoHack - *The Matrix* - <a href="https://cryptohack.org/challenges/matrix/solutions/#Showkara" target="_blank">Writeup</a>
-- Cryptohack - *WOTS Up 2* - <a href="https://cryptohack.org/challenges/wots_up_2-ecsc_2023_norway202/solutions/#Showkara" target="_blank">Writeup</a>
+- CryptoHack - *WOTS Up 2* - <a href="https://cryptohack.org/challenges/wots_up_2-ecsc_2023_norway202/solutions/#Showkara" target="_blank">Writeup</a>
 
 ---
 

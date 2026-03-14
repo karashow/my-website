@@ -60,7 +60,8 @@ In this work we present a new framework that achieves concurrent security while 
 <div class="pub-row">
 
 <div class="pub-image">
-<img src="/assets/images/tanuki.png" alt="Tanuki paper" />
+<img src="{{ '/assets/images/tanuki.png' | relative_url }}" alt="Tanuki paper" />
+<!-- <img src="/assets/images/tanuki.png" alt="Tanuki paper" /> -->
 </div>
 
 <div class="pub-info">
@@ -107,7 +108,8 @@ This work broadens the landscape of post-quantum blind signatures by introducing
 <div class="pub-row">
 
 <div class="pub-image">
-<img src="/assets/images/nibs2.png" alt="Tanuki paper" />
+<img src="{{ '/assets/images/nibs2.png' | relative_url }}" alt="Nibs paper" />
+<!-- <img src="/assets/images/nibs2.png" alt="Tanuki paper" /> -->
 </div>
 
 <div class="pub-info">
@@ -154,7 +156,8 @@ We solve this open problem. We introduce a generic construction of non-interacti
 <div class="pub-row">
 
 <div class="pub-image">
-<img src="/assets/images/mems.png" alt="Tanuki paper" />
+<img src="{{ '/assets/images/mems.png' | relative_url }}" alt="M&M'S paper" />
+<!-- <img src="/assets/images/mems.png" alt="Tanuki paper" /> -->
 </div>
 
 <div class="pub-info">
@@ -197,7 +200,8 @@ For this class of blind signatures, we show a polynomial-time attack that breaks
 <div class="pub-row">
 
 <div class="pub-image">
-<img src="/assets/images/wp.png" alt="Tanuki paper" />
+<img src="{{ '/assets/images/wp.png' | relative_url }}" alt="Master Thesis" />
+<!-- <img src="/assets/images/wp.png" alt="Tanuki paper" /> -->
 </div>
 
 <div class="pub-info">
