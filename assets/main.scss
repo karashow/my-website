@@ -169,3 +169,20 @@
 }
 
 
+.profile-photo {
+  float: right;
+  width: 220px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Mobile fix */
+@media (max-width: 700px) {
+  .profile-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 180px;
+  }
+}
