@@ -29,6 +29,8 @@ description: >- # this means to ignore newlines until "baseurl:"
  66386 Sankt Ingbert
 
 
+baseurl: "/my-website"  # replace with your repo name
+url: "https://karashow.github.io"
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_scholar_id: 3Rn5ZzAAAAAJ&hl=it
