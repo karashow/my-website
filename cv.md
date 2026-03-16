@@ -14,7 +14,7 @@ activities, publications, and certifications.
 </a>
 
 <div class="cv-container">
-<iframe src="{{ '/assets/pdf/curriculumvitae.pdf' | relative_url }}"
+<iframe src="{{ '/assets/pdf/template.pdf' | relative_url }}"
         width="100%"
         height="900px"
         style="border:none;">
