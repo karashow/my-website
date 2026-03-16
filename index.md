@@ -26,7 +26,7 @@ Check the <a href="{{ '/about/' | relative_url }}">About</a> page to get to know
 My research interests include:
 
 - Post-quantum cryptography 
-- Blind signatures and anonymous authentication
+- Blind signatures
 - Oblivious pseudorandom functions (OPRFs)
 - Privacy-preserving cryptography
 
