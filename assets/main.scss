@@ -195,6 +195,7 @@
 
 /* Fix mobile menu alignment */
 .site-nav .trigger {
+  padding: 10px
   text-align: left;
 }
 
@@ -205,4 +206,8 @@
   text-align: left;
   margin: 0;
   padding: 8px 0;
+}
+
+.site-nav .page-link:hover {
+  background-color: #f5f5f5;
 }
