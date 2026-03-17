@@ -196,4 +196,11 @@
 /* Align mobile menu items to the left */
 .site-nav .trigger {
   text-align: left;
+  left: 0;
+  right: auto;
+}
+
+.site-nav .page-link {
+  display: block;
+  text-align: left;
 }
