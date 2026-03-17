@@ -193,14 +193,16 @@
   }
 }
 
-/* Align mobile menu items to the left */
+/* Fix mobile menu alignment */
 .site-nav .trigger {
   text-align: left;
-  left: 0;
-  right: auto;
 }
 
+/* Force links to stack cleanly */
 .site-nav .page-link {
   display: block;
+  width: 100%;
   text-align: left;
+  margin: 0;
+  padding: 8px 0;
 }
